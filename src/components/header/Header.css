@@ -60,6 +60,21 @@
     background: maroon;
 }
 
+@media (max-width: 800px){
+    .main-header{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px 8%;
+    }
 
+    .brand{
+        justify-content: center;
+    }
+
+    .tickets-button{
+        align-self: center;
+    }
+}
 
 
