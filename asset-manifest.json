@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gamedayguide/static/css/main.ebee4ffb.css",
+    "main.js": "/gamedayguide/static/js/main.2f141b86.js",
+    "static/media/LogoImage.jpg": "/gamedayguide/static/media/LogoImage.7656a79e9867b126d010.jpg",
+    "index.html": "/gamedayguide/index.html",
+    "main.ebee4ffb.css.map": "/gamedayguide/static/css/main.ebee4ffb.css.map",
+    "main.2f141b86.js.map": "/gamedayguide/static/js/main.2f141b86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebee4ffb.css",
+    "static/js/main.2f141b86.js"
+  ]
+}
