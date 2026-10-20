@@ -1,4 +1,4 @@
-.main-nav ul{
+#main-nav ul{
     display: flex;
     margin: 0;
     gap: 42px;
@@ -7,7 +7,7 @@
 }
 
 
-.main-nav a{
+#main-nav a{
     display: block;
     padding: 10px 0;
     color: lightgray;
@@ -17,6 +17,6 @@
     white-space: none;
 }
 
-.main-nav a:hover{
+#main-nav a:hover{
     color: white;
 }
