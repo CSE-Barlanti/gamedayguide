@@ -30,28 +30,30 @@
 
 .brand-title{
     color: white;
-    font-size: 1em;
+    font-size: 1.35em;
     font-weight: bold;
     letter-spacing: .05em;
 }
 
 .brand-subtitle{
-    color: gold;
-    font-size: 1em;
+    color: #c9b27c;
+    font-size: .75em;
     font-weight: bold;
     letter-spacing: .1em;
 }
 
 .tickets-button{
     justify-self: end;
-    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 22px 34px;
     border-radius: 5px;
-    background: darkred;
+    background: #a71930;
     color: white;
-    font-size: 1em;
+    font-size: 1.15em;
     font-weight: bold;
     text-decoration: none;
-
 }
 
 .tickets-button:hover{
