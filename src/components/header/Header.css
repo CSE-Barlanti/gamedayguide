@@ -60,29 +60,6 @@
     background: maroon;
 }
 
-@media (max-width: 800px){
-    .main-nav ul{
-        flex-direction: column;
-        gap: 0;
-        text-align: center;
-    }
 
-    .main-nav li{
-        border-top: 1px solid maroon;
-    }
-
-    .main-nav li:last-child{
-        border-bottom: 1px solid maroon;
-    }
-
-    .main-nav a{
-        padding: 14px 0;
-    }
-
-    .main-nav .active{
-        border-bottom: none;
-        color: gold;
-    }
-}
 
 
