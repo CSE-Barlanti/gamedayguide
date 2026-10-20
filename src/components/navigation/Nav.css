@@ -1,3 +1,22 @@
-body{
-    background-color: red;
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    gap: 42px;
+    padding: 0;
+    list-style: none;
+}
+
+
+.main-nav a{
+    display: block;
+    padding: 10px 0;
+    color: lightgray;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: none;
+}
+
+.main-nav a:hover{
+    color: white;
 }
