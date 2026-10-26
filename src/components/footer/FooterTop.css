@@ -6,7 +6,7 @@
     color: white;
 }
 
-#footer-content{
+f.ooter-content{
     display: flex;
     justify-content: space-between;
     gap: 45px;
@@ -16,19 +16,19 @@
 
 
 /*First ColUMn*/
-#footer-brand{
+.footer-brand{
     width: 25%;
 
 }
 
-#footer-brand h2{
+.footer-brand h2{
     margin: 0;
     color: white;
     font-size: 1.5em;
     line-height: 1.2;
 }
 
-#footer-line{
+.footer-line{
     width: 60px;
     height: 4px;
     margin: 0 24px;
@@ -42,7 +42,7 @@
 }
 
 /*Explore and Game Day Footer Section*/
-#footer-column{
+.footer-column{
     width: 15%;
 }
 
