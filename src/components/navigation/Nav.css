@@ -1,3 +1,14 @@
+/*CSS Variable :Root Colors*/
+:root{
+    --black: #0b0b0b;
+    --garnet: #73000a;
+    --offwhite: #f7f5f2;
+    --gold: #c9b27c;
+    --gray: #b8b5bc;
+    --dark-gray: black;
+    --bright-garnet: firebrick;
+}
+
 #main-nav ul{
     display: flex;
     margin: 0;
@@ -10,7 +21,7 @@
 #main-nav a{
     display: block;
     padding: 10px 0;
-    color: lightgray;
+    color: var(--gray);
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
@@ -18,7 +29,7 @@
 }
 
 #main-nav a:hover{
-    color: white;
+    color: var(--offwhite);
 }
 
 @media (max-width: 800px){
@@ -29,11 +40,11 @@
     }
 
     #main-nav li{
-        border-top: 1px solid maroon;
+        border-top: 1px solid var(--garnet);
     }
 
     #main-nav li:last-child{
-        border-bottom: 1px solid maroon;
+        border-bottom: 1px solid var(--garnet);
     }
 
     #main-nav a{
@@ -42,6 +53,6 @@
 
     #main-nav .active{
         border-bottom: none;
-        color: gold;
+        color: var(--gold);
     }
 }

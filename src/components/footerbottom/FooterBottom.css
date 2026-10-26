@@ -1,12 +1,24 @@
+/*CSS Variable :Root Colors*/
+:root{
+    --black: #0b0b0b;
+    --garnet: #73000a;
+    --offwhite: #f7f5f2;
+    --gold: #c9b27c;
+    --gray: #b8b5bc;
+    --dark-gray: black;
+    --bright-garnet: firebrick;
+}
+
+/*Copy Right Footer*/
 .bottom-footer{
     padding: 25px 6%;
-    border-top: 1px solid gold;
-    background: black;
+    border-top: 1px solid var(--gold);
+    background: var(--black);
     text-align: center;
 }
 
 .copyright{
     margin: 0;
-    color: lightgray;
+    color: var(--gray);
     font-size: .9em;
 }

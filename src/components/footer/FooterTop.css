@@ -1,12 +1,23 @@
+/*CSS Variable :Root Colors*/
+:root{
+    --black: #0b0b0b;
+    --garnet: #73000a;
+    --offwhite: #f7f5f2;
+    --gold: #c9b27c;
+    --gray: #b8b5bc;
+    --dark-gray: black;
+    --bright-garnet: firebrick;
+}
+
 /*Footer*/
 .main-footer{
     padding: 70px 6%;
-    border-top: 8px solid maroon;
-    background: black;
-    color: white;
+    border-top: 8px solid var(--garnet);
+    background: var(--black);
+    color: var(--offwhite);
 }
 
-f.ooter-content{
+.footer-content{
     display: flex;
     justify-content: space-between;
     gap: 45px;
@@ -23,21 +34,21 @@ f.ooter-content{
 
 .footer-brand h2{
     margin: 0;
-    color: white;
-    font-size: 1.5em;
+    color: var(--offwhite);
+    font-size: 2em;
     line-height: 1.2;
 }
 
 .footer-line{
     width: 60px;
     height: 4px;
-    margin: 0 24px;
-    background: darkred;
+    margin: 24px 0 24px -15px;
+    background: var(--bright-garnet);
 }
 
 .footer-brand p{
     margin: 0;
-    color: lightgray;
+    color: var(--gray);
     line-height: 1.5;
 }
 
@@ -50,28 +61,34 @@ f.ooter-content{
 .footer-connect h3{
     margin: 0 0 25px;
     padding-bottom: 12px;
-    border-bottom: 3px solid darkred;
-    color: gold;
-    font-size: 1.1em;
+    border-bottom: 3px solid var(--bright-garnet);
+    color: white;
+    font-size: 1em;
 }
 
 .footer-column ul{
     margin: 0;
-    padding: 0;
-    list-style: none;
+    padding-left: 20px;
+    list-style-type: disc;
 }
 
 .footer-column li{
     margin-bottom: 15px;
 }
 
+.footer-column li::marker{
+    color: var(--offwhite);
+}
+
 .footer-column a{
-    color: lightgray;
+    color: var(--offwhite);
+    font-size: .9em;
     text-decoration: none;
 }
 
+
 .footer-column a:hover{
-    color: gold;
+    color: var(--gold);
 }
 
 /* Stay Connected column */
@@ -81,7 +98,7 @@ f.ooter-content{
 
 .footer-connect p{
     margin: 0 0 20px;
-    color: lightgray;
+    color: var(--offwhite);
     line-height: 1.6;
 }
 
@@ -92,22 +109,22 @@ f.ooter-content{
 .footer-signup input{
     width: 100%;
     padding: 14px;
-    border: 1px solid gold;
+    border: 1px solid var(--gold);
     border-right: none;
-    background: black;
-    color: white;
-    font-size: 1em;
+    background: var(--black);
+    color: var(--offwhite);
+    font-size: .5em;
 }
 
 .footer-signup button{
     padding: 14px 18px;
     border: none;
-    background: darkred;
-    color: white;
+    background: var(--bright-garnet);
+    color: var(--offwhite);
     font-weight: bold;
     cursor: pointer;
 }
 
 .footer-signup button:hover{
-    background: maroon;
+    background: var(--garnet);
 }
