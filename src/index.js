@@ -5,8 +5,8 @@ import "./index.css";
 
 import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
-import Footer from "./components/footer/Footer";
-import FooterBottom from "./components/footer/FooterBottom";
+import Footer from "./components/footer/FooterTop";
+import FooterBottom from "./components/footerbottom/FooterBottom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
