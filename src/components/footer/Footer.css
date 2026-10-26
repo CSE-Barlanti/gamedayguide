@@ -1,0 +1,113 @@
+/*Footer*/
+.main-footer{
+    padding: 70px 6%;
+    border-top: 8px solid maroon;
+    background: black;
+    color: white;
+}
+
+#footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*First ColUMn*/
+#footer-brand{
+    width: 25%;
+
+}
+
+#footer-brand h2{
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+#footer-line{
+    width: 60px;
+    height: 4px;
+    margin: 0 24px;
+    background: darkred;
+}
+
+.footer-brand p{
+    margin: 0;
+    color: lightgray;
+    line-height: 1.5;
+}
+
+/*Explore and Game Day Footer Section*/
+#footer-column{
+    width: 15%;
+}
+
+.footer-column h3,
+.footer-connect h3{
+    margin: 0 0 25px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid darkred;
+    color: gold;
+    font-size: 1.1em;
+}
+
+.footer-column ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-column li{
+    margin-bottom: 15px;
+}
+
+.footer-column a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.footer-column a:hover{
+    color: gold;
+}
+
+/* Stay Connected column */
+.footer-connect{
+    width: 28%;
+}
+
+.footer-connect p{
+    margin: 0 0 20px;
+    color: lightgray;
+    line-height: 1.6;
+}
+
+.footer-signup{
+    display: flex;
+}
+
+.footer-signup input{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid gold;
+    border-right: none;
+    background: black;
+    color: white;
+    font-size: 1em;
+}
+
+.footer-signup button{
+    padding: 14px 18px;
+    border: none;
+    background: darkred;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-signup button:hover{
+    background: maroon;
+}
