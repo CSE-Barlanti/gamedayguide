@@ -88,5 +88,111 @@
 }
 
 /*Home CountDown Section*/
+.countdown-section{
+    padding: 100px 6%;
+    border-top: 1px solid var(--garnet);
+    background: var(--black);
+    color: var(--offwhite);
+}
 
+.countdown-label{
+    margin: 0;
+    color: var(--gold);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.countdown-section h2{
+    margin: 35px 0 60px;
+    color: var(--offwhite);
+    font-size: 3.5em;
+}
+
+.matchup-card{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 55px 60px;
+    border: 1px solid var(--garnet);
+    border-radius: 8px;
+    background: var(--dark-gray);
+}
+
+.team{
+    min-width: 130px;
+    text-align: center;
+}
+
+.team-symbol{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border: 4px solid;
+    border-radius: 50%;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 72px;
+}
+
+.gamecock-symbol{
+    border-color: var(--bright-garnet);
+    color: var(--bright-garnet);
+}
+
+.alabama-symbol{
+    border-color: var(--bright-garnet);
+    color: var(--bright-garnet);
+}
+
+.team h3{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 1em;
+}
+
+.versus{
+    margin: 0;
+    color: var(--gold);
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.game-details{
+    flex: 1;
+    padding-left: 40px;
+    border-left: 1px solid var(--gray);
+}
+
+.game-details h3{
+    margin: 0 0 18px;
+    color: var(--offwhite);
+    font-size: 1.8em;
+}
+
+.game-date{
+    margin: 0 0 12px;
+    color: var(--gold);
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.game-location{
+    margin: 0;
+    color: var(--gray);
+    font-size: 1.1em;
+}
+
+.game-tickets-button{
+    padding: 20px 28px;
+    border-radius: 5px;
+    background: var(--bright-garnet);
+    color: var(--offwhite);
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.game-tickets-button:hover{
+    background: var(--garnet);
+}
 
