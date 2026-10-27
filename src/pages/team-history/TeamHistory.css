@@ -1,0 +1,90 @@
+:root{
+    --black: #0b0b0b;
+    --garnet: #73000a;
+    --offwhite: #f7f5f2;
+    --gold: #c9b27c;
+    --gray: #b8b5bc;
+    --dark-gray: black;
+    --bright-garnet: firebrick;
+}
+
+/*Team History Hero*/
+.history-hero{
+    background: var(--black);
+}
+
+.hero-banner{
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+    gap: 35px;
+    padding: 0 6%;
+    background: var(--garnet);
+    color: var(--offwhite);
+}   
+
+.hero-emblem{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid var(--gold);
+    border-radius: 50%;
+    background: var(--black);
+    color: var(--offwhite);
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.hero-intro{
+    padding-left: 30px;
+    border-left: 6px solid var(--gold);
+}
+
+.hero-intro h1{
+    margin: 0 0 12px;
+    color: var(--offwhite);
+    font-size: 2.5em;
+}
+
+.hero-intro p{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: .75em;
+    line-height: 1.5;
+}
+
+.history-year{
+    display: flex;
+    min-height: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+    color: var(--gold);
+    text-align: center;
+}
+
+.history-year div{
+    width: 40px;
+    height: 1px;
+    background: var(--gold);
+}
+
+.history-year p{
+    margin: 0;
+    color: var(--gold);
+    font-size: .75em;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.history-hero .hero-image{
+    width: 100%;
+    height: 700px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
