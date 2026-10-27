@@ -88,3 +88,60 @@
     object-fit: cover;
     object-position: center;
 }
+
+/*Football Milestones*/
+.milestones-section{
+    padding: 100px 6%;
+    background: var(--garnet);
+    color: var(--offwhite);
+    text-align: center;
+}
+
+.milestones-section h2{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 2.5em;
+}
+
+.milestones-intro{
+    margin: 25px 0 60px;
+    color: var(--offwhite);
+    font-size: 1em;
+}
+
+.milestone-cards{
+    display: flex;
+    gap: 35px;
+}
+
+.milestone-card{
+    flex: 1;
+    overflow: hidden;
+    border-radius: 8%;
+    background: var(--offwhite);
+}
+
+.milestone-card h3{
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: var(--gold);
+    font-size: 3em;
+}
+
+.milestone-card p{
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 18px;
+    background: var(--bright-garnet);
+    color: var(--offwhite);
+    font-size: .75em;
+    font-weight: bold;
+    text-transform: none;
+}

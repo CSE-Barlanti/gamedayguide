@@ -32,6 +32,32 @@ const TeamHistory = () => {
                     alt="Gamecock Stadium"
                 />
             </section>
+
+            <section className="milestones-section">
+                <h2>GameCock Football Milestones</h2>
+                <p className="milestones-intro">
+                    Four defining seasons in Gamecock football history.
+                </p>
+
+                <div className="milestone-cards">
+                    <article className="milestone-card">
+                        <h3>1892</h3>
+                        <p>First Football Season</p>
+                    </article>
+                    <article className="milestone-card">
+                        <h3>1969</h3>
+                        <p>ACC Season Champions</p>
+                    </article>
+                    <article className="milestone-card">
+                        <h3>1980</h3>
+                        <p>FIrst Heisman Winner: George Rogers</p>
+                    </article>
+                    <article className="milestone-card">
+                        <h3>2010</h3>
+                        <p>SEC East Champions</p>
+                    </article>
+                </div>
+            </section>
         </main>
     );
 };
