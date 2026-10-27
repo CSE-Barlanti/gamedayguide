@@ -1,6 +1,6 @@
 import "./Schedule&Results.css";
 import GameDay from "./images/gamedayimage.webp";
-import Schedule from "./images/scheduleHero.webp";
+import scheduleHeroImage from "./images/scheduleHero.webp";
 
 const Schedule = () => {
     return(
@@ -16,7 +16,7 @@ const Schedule = () => {
                         kickoff to the final whistle.
                     </p>
                 </div>
-                <img className="schedule-hero-image" src={Schedule} alt="Picture of the schedule" />
+                <img className="schedule-hero-image" src={scheduleHeroImage} alt="Picture of the schedule" />
             </section>
             <section className="upcoming-games-section">
                 <p className="section-label">
