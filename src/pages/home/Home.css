@@ -283,5 +283,60 @@
     font-weight: bold;
 }
 
+/*Sandstorm Section*/
+.sandstorm-section{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 110px 10%;
+    border-top: 1px solid var(--garnet);
+    background: var(--black);
+    color: var(--offwhite);
+}
+
+.sandstorm-content{
+    width: 40%;
+}
+
+.sandstorm-section h2{
+    margin: 30px 0;
+    color: var(--offwhite);
+    font-size: 3.7em;
+    line-height: 1;
+}
+
+.sandstorm-content  p:not(.sandstorm-label){
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.sandstorm-button{
+    display: block;
+    margin-top: 45px;
+    padding: 22px 33px;
+    border-radius: 5%;
+    background: var(--garnet);
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sandstorm-button:hover{
+    background: var(--bright-garnet);
+}
+
+.sandstorm-image{
+    width: 45%;
+    height: 500px;
+    display: block;
+    border-radius: 8%;
+    object-fit: cover;
+}
+
+/*NewsLetter Section*/
+
 
 
