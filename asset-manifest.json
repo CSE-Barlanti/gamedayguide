@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/gamedayguide/static/css/main.ebee4ffb.css",
-    "main.js": "/gamedayguide/static/js/main.2f141b86.js",
+    "main.css": "/gamedayguide/static/css/main.794b03a4.css",
+    "main.js": "/gamedayguide/static/js/main.cb3844a4.js",
+    "static/media/Gamecock-Park-Columbia-SC-Sitemap.jpeg": "/gamedayguide/static/media/Gamecock-Park-Columbia-SC-Sitemap.ba67f833fd702f7bc17b.jpeg",
+    "static/media/Sandstorm2.webp": "/gamedayguide/static/media/Sandstorm2.de644c34a2527df8e493.webp",
+    "static/media/willyBStadium.jpg": "/gamedayguide/static/media/willyBStadium.a8536d37b0cb4fde5ff7.jpg",
+    "static/media/ParkingZones.jpg": "/gamedayguide/static/media/ParkingZones.5ec67ece791830b85af9.jpg",
+    "static/media/Tailgate.webp": "/gamedayguide/static/media/Tailgate.608004b25924a8e107ff.webp",
     "static/media/LogoImage.jpg": "/gamedayguide/static/media/LogoImage.7656a79e9867b126d010.jpg",
     "index.html": "/gamedayguide/index.html",
-    "main.ebee4ffb.css.map": "/gamedayguide/static/css/main.ebee4ffb.css.map",
-    "main.2f141b86.js.map": "/gamedayguide/static/js/main.2f141b86.js.map"
+    "main.794b03a4.css.map": "/gamedayguide/static/css/main.794b03a4.css.map",
+    "main.cb3844a4.js.map": "/gamedayguide/static/js/main.cb3844a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebee4ffb.css",
-    "static/js/main.2f141b86.js"
+    "static/css/main.794b03a4.css",
+    "static/js/main.cb3844a4.js"
   ]
 }
