@@ -29,7 +29,7 @@
 }
 
 #main-nav a:hover{
-    color: var(--offwhite);
+    color: var(--gold);
 }
 
 @media (max-width: 800px){
