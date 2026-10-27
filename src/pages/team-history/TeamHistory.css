@@ -262,3 +262,102 @@
     background: var(--dark-gray);
     color: var(--gold);
 }
+
+
+@media (max-width: 800px){
+    /* Hero */
+    .hero-banner{
+        min-height: auto;
+        flex-wrap: wrap;
+        gap: 22px;
+        padding: 35px 8%;
+    }
+
+    .hero-emblem{
+        width: 70px;
+        height: 70px;
+        border-width: 3px;
+        font-size: 2em;
+    }
+
+    .hero-intro{
+        flex: 1;
+        padding-left: 18px;
+        border-left-width: 5px;
+    }
+
+    .hero-intro h1{
+        font-size: 2em;
+    }
+
+    .hero-intro p{
+        font-size: 1em;
+    }
+
+    .history-year{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .history-hero .hero-image{
+        height: 280px;
+    }
+
+    /* Milestones */
+    .milestones-section{
+        padding: 70px 8%;
+    }
+
+    .milestones-section h2{
+        font-size: 2.3em;
+    }
+
+    .milestones-cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .milestone-card h3{
+        min-height: 170px;
+        font-size: 3.8em;
+    }
+
+    /* Legends */
+    .legends-section{
+        padding: 70px 8%;
+    }
+
+    .legends-heading h2{
+        font-size: 2.6em;
+    }
+
+    .legends-cards{
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 55px;
+    }
+
+    .legend-image{
+        height: 300px;
+    }
+
+    /* Bottom Call To Action */
+    .history-cta-section{
+        padding: 75px 8%;
+    }
+
+    .history-cta-section h2{
+        font-size: 2.6em;
+    }
+
+    .history-cta-section p{
+        margin: 25px auto 40px;
+        font-size: 1.1em;
+    }
+
+    .history-cta-button{
+        padding: 20px 28px;
+    }
+}
