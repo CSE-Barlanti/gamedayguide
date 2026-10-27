@@ -1,5 +1,8 @@
 import "./TeamHistory.css";
 import WilliamBriceImage from "./images/HeroImageWillyB.webp";
+import GeorgeRogers from "./images/georgerogers.webp";
+import SterlingSharpe from "./images/sterlingsharpe.webp";
+import SteveSpurrier from "./images/stevespurrier.webp";
 
 
 const TeamHistory = () => {
@@ -57,6 +60,80 @@ const TeamHistory = () => {
                         <p>SEC East Champions</p>
                     </article>
                 </div>
+            </section>
+            <section className="legends-section">
+                <div className="legends-heading">
+                    <h2>GameCock Legends</h2>
+
+                    <div className="legends-heading-line"></div>
+
+                    <p>
+                        The players and leaders whose impact reaches far beyond the final whistle.
+                    </p>
+                </div>
+
+                <div className="legend-cards">
+                    <article className="legend-card">
+                        <img
+                            className="legend-image"
+                            src={GeorgeRogers}
+                            alt="Gamecock Stadium"
+                        />
+
+                        <div className="legend-card-content">
+                            <h3>1980 Heisman Trophy Winner</h3>
+
+                            <p>
+                                Rogers led the nation with 1,894 rushing yards in 1980 and
+                                still holds Carolina&apos;s career rushing record with 5,204 yards.
+                            </p>
+                        </div>
+                    </article>
+                    <article className="legend-card">
+                        <img
+                            className="legend-image"
+                            src={SterlingSharpe}
+                            alt="Gamecock Stadium"
+                        />
+
+                        <div className="legend-card-content">
+                            <h3>Record Setting Receiver</h3>
+
+                            <p>
+                                Sharpe finished his Carolina career with 169 receptions,
+                                2,497 receiving yards, and 17 touchdowns.
+                            </p>
+                        </div>
+                    </article>
+                    <article className="legend-card">
+                        <img
+                            className="legend-image"
+                            src={SteveSpurrier}
+                            alt="Gamecock Stadium"
+                        />
+
+                        <div className="legend-card-content">
+                            <h3>Winningest Coach In Program History</h3>
+
+                            <p>
+                                 Spurrier led Carolina to its first SEC East title and the
+                                program&apos;s only three 11-win seasons.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section className="history-cta-section">
+                <h2>Ready For Next Kickoff?</h2>
+
+                <p>
+                    Everything you need for an unforgettable Saturday at Williams-Brice
+                    Stadium is waiting in the Game-Day Guide.
+                </p>
+
+                <a className="history-cta-button" href="#gameday">
+                    Plan Your Game Day
+                </a>
             </section>
         </main>
     );

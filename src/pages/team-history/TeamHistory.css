@@ -145,3 +145,120 @@
     font-weight: bold;
     text-transform: none;
 }
+
+/*Legends Section*/
+.legends-section{
+    padding: 110px 6%;
+    background: var(--offwhite);
+    color: var(--black);
+    text-align: center;
+}
+
+.legends-heading h2{
+    margin: 0;
+    color: var(--offwhite);
+    font-family: Georgia, serif;
+    font-size: 3em;
+}
+
+.legends-heading-line{
+    width: 680px;
+    max-width: 100%;
+    height: 4px;
+    margin: 35px auto 25px;
+    background: var(--gold);
+}
+
+.legends-heading p{
+    margin: 0;
+    color: var(--gray);
+    font-size: 1.2em;
+}
+
+.legend-cards{
+    display: flex;
+    gap: 40px;
+    margin-top: 85px;
+}
+
+.legend-card{
+    flex: 1;
+    overflow: hidden;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+    background: var(--offwhite);
+    text-align: left;
+}
+
+.legend-image{
+    width: 100%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.legend-card-content{
+    min-height: 245px;
+    padding: 38px;
+    border-top: 8px solid var(--garnet);
+    box-sizing: border-box;
+}
+
+.legend-card h3{
+    margin: 0 0 28px;
+    padding-left: 18px;
+    border-left: 4px solid var(--gold);
+    color: var(--garnet);
+    font-size: 1.3em;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.legend-card-content p{
+    margin: 0;
+    color: #666;
+    font-size: 1.15em;
+    line-height: 1.6;
+}
+
+
+/*Ready for KickOff Section*/
+.history-cta-section{
+    padding: 120px 6%;
+    background: var(--garnet);
+    color: var(--offwhite);
+    text-align: center;
+}
+
+.history-cta-section h2{
+    margin: 0;
+    color: var(--offwhite);
+    font-family: Georgia, serif;
+    font-size: 3em;
+}
+
+.history-cta-section p{
+    max-width: 900px;
+    margin: 35px auto 55px;
+    color: var(--offwhite);
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.history-cta-button{
+    display: inline-block;
+    padding: 24px 42px;
+    border-radius: 6px;
+    background: var(--black);
+    color: var(--offwhite);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.history-cta-button:hover{
+    background: var(--dark-gray);
+    color: var(--gold);
+}
