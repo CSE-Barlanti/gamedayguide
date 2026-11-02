@@ -4,20 +4,47 @@ import parkingMap from "./images/ParkingZones.jpg";
 import tailgatingZones from "./images/Gamecock-Park-Columbia-SC-Sitemap.jpeg";
 import tailgateSetup from "./images/Tailgate.webp";
 import sandstormImage from "./images/Sandstorm2.webp";
+import { useState } from "react";
+import heroFireworks from "./images/willyBfireworks.webp";
+import heroSandstorm from "./images/Sandstorm.webp";
 
 const Home = () => {
+    const slides = [heroStadium, heroFireworks, heroSandstorm];
+    const [slideIndex, setSlideIndex] = useState(0);
+
+    const nextSlide = () => {
+        if (slideIndex === slides.length - 1) {
+            setSlideIndex(0);
+        } else {
+            setSlideIndex(slideIndex + 1);
+        }
+    };
+
+    const prevSlide = () => {
+        if (slideIndex === 0) {
+            setSlideIndex(slides.length - 1);
+        } else {
+            setSlideIndex(slideIndex - 1);
+        }
+    };
+
+
     return(
         <main>
             <section className ="home-hero">
 
                 <img
                         className="hero-background-image"
-                        src={heroStadium}
+                        src={slides[slideIndex]}
                         alt="Williams-Brice Stadium before a Gamecock football game"
                  />
-                    
+
+                
                 <div className="hero-overlay"></div>
 
+                <button className="hero-arrow hero-arrow-left" onClick={prevSlide}>‹</button>
+                <button className="hero-arrow hero-arrow-right" onClick={nextSlide}>›</button>
+                
                 <div className ="hero-content">
 
 
