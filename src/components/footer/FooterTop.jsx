@@ -1,6 +1,12 @@
+import { useState } from "react";
 import "./FooterTop.css";
 
+
 const Footer = () => {
+    const [showMap, setShowMap] = useState(false);
+    const toggleMap = () => {
+        setShowMap(!showMap);
+    };
     return (
         <footer className="main-footer">
             <div className="footer-content">
@@ -30,9 +36,24 @@ const Footer = () => {
                         <li><a href="#tickets">Tickets</a></li>
                         <li><a href="#parking">Parking</a></li>
                         <li><a href="#tailgating">Tailgating</a></li>
-                        <li><a href="#stadium">Williams-Brice Stadium</a></li>
+                        <li>
+                            <button type="button" className="map-toggle" onClick={toggleMap}>
+                                Williams-Brice Stadium
+                            </button>
+                        </li>
                         <li><a href="#contact">Contact Us</a></li>
                     </ul>
+
+                    {showMap && (
+                        <iframe
+                            className="stadium-map-frame"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.7568598888424!2d-81.0217603242869!3d33.97308837318692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8baef1321f791%3A0x83f44871f4a3c265!2sWilliams-Brice%20Stadium!5e0!3m2!1sen!2sus!4v1791495533795!5m2!1sen!2sus"
+                            title="Map showing Williams-Brice Stadium"
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                        ></iframe>
+                    )}
                 </section>
 
                 <section className="footer-connect">

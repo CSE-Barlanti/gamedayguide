@@ -32,6 +32,10 @@
     color: var(--gold);
 }
 
+#main-nav #toggle-nav{
+    display: none;
+}
+
 @media (max-width: 800px){
     #main-nav ul{
         flex-direction: column;
@@ -54,5 +58,13 @@
     #main-nav .active{
         border-bottom: none;
         color: var(--gold);
+    }
+    #main-nav #toggle-nav{
+    display: block;
+    text-align: right;
+    font-size: 1.5em;
+    }
+    #main-nav .hide-small{
+        display: none;
     }
 }

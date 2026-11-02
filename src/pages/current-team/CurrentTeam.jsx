@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./CurrentTeam.css";
 import Player from "../../components/players/Player";
 
@@ -59,9 +61,9 @@ const CurrentTeam = () => {
                     </p>
 
                     <div className="team-glance-buttons">
-                        <a className="team-glance-button" href="#players">
+                        <HashLink className="team-glance-button" smooth to="/current-team#players">
                             View The Roster
-                        </a>
+                        </HashLink>
 
                         <Link className="team-glance-button" to="/schedule&results">
                             See The Schedule
@@ -113,9 +115,9 @@ const CurrentTeam = () => {
                         energy that makes every Gamecock game day unforgettable.
                     </p>
 
-                    <a className="roster-cta-link" href="#players">
-                        View Full Roster →
-                    </a>
+                    <HashLink className="team-glance-button" smooth to="/current-team#players">
+                        View The Roster
+                    </HashLink>
                 </div>
 
                 <img

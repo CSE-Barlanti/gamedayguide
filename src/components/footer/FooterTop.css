@@ -128,3 +128,15 @@
 .footer-signup button:hover{
     background: var(--garnet);
 }
+
+.map-toggle{
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+.map-toggle:hover{
+    color: var(--gold);
+}
