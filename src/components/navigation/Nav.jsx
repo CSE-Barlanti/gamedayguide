@@ -10,8 +10,8 @@ const Nav = () => {
 
     return(
         <nav id="main-nav">
-            <a id="toggle-nav" onCLick={toggleNav} href="#">
-                {menuOpen?(<p>&#8963;</p>):(<p>&#8963;</p>)}
+            <a id="toggle-nav" onClick={toggleNav} href="#">
+                {menuOpen ? <p>&#8963;</p> : <p>&#9776;</p>}
             </a>
             <ul className={menuOpen? "":"hide-small"}>
                 <li>
