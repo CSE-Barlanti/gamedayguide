@@ -63,9 +63,9 @@ const CurrentTeam = () => {
                             View The Roster
                         </a>
 
-                        <a className="team-glance-button" href="#schedule">
+                        <Link className="team-glance-button" to="/schedule&results">
                             See The Schedule
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
