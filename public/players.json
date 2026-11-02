@@ -17,7 +17,7 @@
         "number": "16",
         "position": "Quarterback",
         "height": "6'3\"",
-        "weight": "210",
+        "weight": 210,
         "year": "Senior",
         "hometown": "Florence, SC",
         "image": "images/current-teamimage/LenorrisSellers.webp"
@@ -29,7 +29,7 @@
         "number": 8,
         "position": "Wide Receiver",
         "height": "6'5\"",
-        "weight": "239",
+        "weight": 239,
         "year": "Senior",
         "hometown": "Washington, D.C.",
         "image":"images/current-teamimage/NyckHarbor.webp"
@@ -41,7 +41,7 @@
         "number": 4,
         "position": "Running Back",
         "height": "6'0\"",
-        "weight": "215",
+        "weight": 215,
         "year": "Junior",
         "hometown": "Washington, D.C.",
         "image": "images/current-teamimage/IsaiahAugustave.webp"
@@ -53,7 +53,7 @@
         "number": 3,
         "position": "Wide Receiver",
         "height": "5'10\"",
-        "weight": "200",
+        "weight": 200,
         "year": "Junior",
         "hometown": "Greenville, SC",
         "image": "images/current-teamimage/MazeoBennett.webp"
@@ -65,7 +65,7 @@
         "number": 8,
         "position": "Defensive Back",
         "height": "6'0\"",
-        "weight": "208",
+        "weight": 208,
         "year": "Junior",
         "hometown": "Rock Hill, SC",
         "image": "images/current-teamimage/JudgeCollier.webp"
@@ -77,7 +77,7 @@
         "number": 1,
         "position": "Safety",
         "height": "6'0\"",
-        "weight": "208 lbs",
+        "weight": 208,
         "year": "Redshirt Senior",
         "hometown": "Eatonton, GA",
         "image": "images/current-teamimage/GeraldKilgore.webp"
@@ -88,7 +88,7 @@
         "number": 74,
         "position": "Offensive Tackle",
         "height": "6'7\"",
-        "weight": "305 lbs",
+        "weight": 305,
         "year": "Junior",
         "hometown": "Dillon, SC",
         "image": "images/current-teamimage/JosiahThompson.webp"
