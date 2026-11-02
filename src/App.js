@@ -5,7 +5,7 @@ import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import TeamHistory from "./pages/team-history/TeamHistory";
 import ScheduleResults from "./pages/schedule&results/Schedule&Results";
-import Gallery from "./pages/gallery/gallery";
+import Gallery from "./pages/gallery/Gallery";
 
 function App() {
   return (

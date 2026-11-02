@@ -1,5 +1,6 @@
 import "./Nav.css";
 import {useState} from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -15,19 +16,19 @@ const Nav = () => {
             </a>
             <ul className={menuOpen? "":"hide-small"}>
                 <li>
-                    <a href="#">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="">Team History</a>
+                    <Link to="/team-history">Team History</Link>
                 </li>
                 <li>
-                    <a href="#">Current Team</a>
+                    <Link to="/current-team">Current Team</Link>
                 </li>
                 <li>
-                    <a href="#">Schedule & Results</a>
+                    <Link to="/schedule&results">Schedule & Results</Link>
                 </li>
                 <li>
-                    <a href="#">Photo Gallery</a>
+                    <Link to="/Gallery">Photo Gallery</Link>
                 </li>
             </ul>
         </nav>
