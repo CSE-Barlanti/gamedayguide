@@ -4,6 +4,7 @@ import FooterBottom from "./components/footerbottom/FooterBottom";
 import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import TeamHistory from "./pages/team-history/TeamHistory";
+import CurrentTeam from "./pages/current-team/CurrentTeam";
 import ScheduleResults from "./pages/schedule&results/Schedule&Results";
 import Gallery from "./pages/gallery/Gallery";
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/team-history" element={<TeamHistory />}/>
         <Route path="/schedule&results" element={<ScheduleResults />}/>
+        <Route path="/current-team" element={<CurrentTeam />}/>
         <Route path="/gallery" element={<Gallery />}/>
       </Routes>
       <Footer />
