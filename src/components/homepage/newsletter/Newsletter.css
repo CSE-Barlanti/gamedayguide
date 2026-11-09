@@ -1,0 +1,87 @@
+:root{
+    --black: #0b0b0b;
+    --garnet: #73000a;
+    --offwhite: #f7f5f2;
+    --gold: #c9b27c;
+    --gray: #b8b5bc;
+    --dark-gray: black;
+    --bright-garnet: firebrick;
+}
+
+
+/*Newsletter Section*/
+/*NewsLetter Section*/
+.newsletter-section{
+    padding: 100px 6%;
+    border-top: 1px solid var(--garnet);
+    background: var(--garnet);
+    color: var(--offwhite);
+    text-align: center;
+}
+
+.newsletter-section h2{
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: var(--offwhite);
+}
+
+.newsletter-section p{
+    max-width: 850px;
+    margin: 28px auto 45px;
+    color: var(--offwhite);
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.newsletter-signup{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-signup input{
+    width: 500px;
+    padding: 25px 30px;
+    border: none;
+    border-radius:5px 0 0 5px;
+    background: var(--offwhite);
+    color: var(--black);
+    font-size: 1em;
+}
+
+.newsletter-signup button{
+    padding: 20px 35px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: var(--black);
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter-signup button:hover{
+    color: var(--gold);
+}
+
+@media (max-width: 800px){
+    .newsletter-section{
+        padding: 70px 8%;
+    }
+    .newsletter-section h2{
+        font-size: 2.4em;
+    }
+    .newsletter-signup{
+        flex-direction: column;
+    }
+    .newsletter-signup input,
+    .newsletter-signup button{
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    .newsletter-signup button{
+        margin-top: 12px;
+    }
+}
