@@ -1,0 +1,49 @@
+:root{
+    --black: #0b0b0b;
+    --garnet: #73000a;
+    --offwhite: #f7f5f2;
+    --gold: #c9b27c;
+    --gray: #b8b5bc;
+    --dark-gray: black;
+    --bright-garnet: firebrick;
+}
+
+/*Milestone-Card*/
+.milestone-card{
+    flex: 1;
+    overflow: hidden;
+    border-radius: 8%;
+    background: var(--offwhite);
+}
+
+.milestone-card h3{
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: var(--gold);
+    font-size: 3em;
+}
+
+.milestone-card p{
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 18px;
+    background: var(--bright-garnet);
+    color: var(--offwhite);
+    font-size: .75em;
+    font-weight: bold;
+    text-transform: none;
+}
+
+@media (max-width: 800px){
+    .milestone-card h3{
+        min-height: 170px;
+        font-size: 3.8em;
+    }
+}

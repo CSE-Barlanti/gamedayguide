@@ -1,4 +1,5 @@
 import "./Sandstorm.css";
+import sandstormImage from "../../../pages/home/images/Sandstorm2.webp";
 
 const Sandstorm = () => {
     return(

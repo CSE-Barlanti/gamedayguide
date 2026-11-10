@@ -1,9 +1,8 @@
-import "./Home.css";
-import HomeHero from "../../components/home/hero/HomeHero";
-import Countdown from "../../components/home/countdown/Countdown";
-import GuideSection from "../../components/home/guidesection/GuideSection";
-import Sandstorm from "../../components/home/sandstorm/Sandstorm";
-import Newsletter from "../../components/home/newsletter/Newsletter";
+import HomeHero from "../../components/homepage/homehero/HomeHero";
+import Countdown from "../../components/homepage/countdown/Countdown";
+import GuideSection from "../../components/homepage/guidesection/GuideSection";
+import Sandstorm from "../../components/homepage/sandstorm/Sandstorm";
+import Newsletter from "../../components/homepage/newsletter/Newsletter";
 
 const Home = () => {
     return (
