@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gamedayguide/static/css/main.6e107af7.css",
-    "main.js": "/gamedayguide/static/js/main.480f1e03.js",
+    "main.css": "/gamedayguide/static/css/main.def695c9.css",
+    "main.js": "/gamedayguide/static/js/main.fad7f7c6.js",
     "static/media/image3.png": "/gamedayguide/static/media/image3.0f4d4d97ce2dd422627e.png",
     "static/media/image4.png": "/gamedayguide/static/media/image4.bff0f60acc47b8538d05.png",
     "static/media/HeroImageWillyB.webp": "/gamedayguide/static/media/HeroImageWillyB.83a3b51d833db966aaff.webp",
@@ -26,11 +26,11 @@
     "static/media/sterlingsharpe.webp": "/gamedayguide/static/media/sterlingsharpe.ef1372ec1f75cffe34ca.webp",
     "static/media/stevespurrier.webp": "/gamedayguide/static/media/stevespurrier.fa79875d7d84c13331ef.webp",
     "index.html": "/gamedayguide/index.html",
-    "main.6e107af7.css.map": "/gamedayguide/static/css/main.6e107af7.css.map",
-    "main.480f1e03.js.map": "/gamedayguide/static/js/main.480f1e03.js.map"
+    "main.def695c9.css.map": "/gamedayguide/static/css/main.def695c9.css.map",
+    "main.fad7f7c6.js.map": "/gamedayguide/static/js/main.fad7f7c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e107af7.css",
-    "static/js/main.480f1e03.js"
+    "static/css/main.def695c9.css",
+    "static/js/main.fad7f7c6.js"
   ]
 }
