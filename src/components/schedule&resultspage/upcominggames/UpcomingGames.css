@@ -1,0 +1,49 @@
+:root{
+    --black: #0b0b0b;
+    --garnet: #73000a;
+    --offwhite: #f7f5f2;
+    --gold: #c9b27c;
+    --gray: #b8b5bc;
+    --dark-gray: black;
+    --bright-garnet: firebrick;
+}
+/*Upcoming Games Section*/
+.upcoming-games-section{
+    padding: 90px 6%;
+    background: var(--black);
+    color: var(--offwhite);
+    text-align: center;
+}
+
+.upcoming-label{
+    margin: 0 0 18px;
+    color: var(--gold);
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.upcoming-games-section h2{
+    margin: 0;
+    font-size: 3.2em;
+}
+
+.game-cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+}
+
+@media (max-width: 800px){
+    .upcoming-games-section{
+        padding: 70px 8%;
+    }
+
+    .upcoming-games-section h2{
+        font-size: 2.4em;
+    }
+
+    .game-cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
