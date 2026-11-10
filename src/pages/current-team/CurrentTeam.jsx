@@ -1,82 +1,25 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 import "./CurrentTeam.css";
 import Player from "../../components/players/Player";
-
-import teamGlanceLeft from "./images/22d028e7-f6v82qjxiaam4uk.webp";
-import teamGlanceRight from "./images/CUrrentTeamImage.webp";
-import fullTeam from "./images/fullTeam.webp";
+import TeamHero from "../../components/currentteampage/teamhero/TeamHero";
+import TeamGlance from "../../components/currentteampage/teamglance/TeamGlance";
+import RosterCta from "../../components/currentteampage/rostercta/RosterCta";
 
 const CurrentTeam = () => {
-    const [players, setPlayers] = useState([]);
-
-    const getPlayers = async () => {
-        const response = await fetch(
-            `${process.env.PUBLIC_URL}/players.json`
-        );
-
-        return response.json();
-    };
-
-    const showPlayers = async () => {
-        const playerData = await getPlayers();
-        setPlayers(playerData);
-    };
-
     useEffect(() => {
-        showPlayers();
+        const loadPlayers = async () => {
+            const response = await axios.get("https://gamecock-server-alqe.onrender.com/api/players");
+            setPlayers(response.data);
+        };
+        loadPlayers();
     }, []);
 
     return (
+
         <main>
-            <section className="current-team-hero">
-                <div className="current-team-banner">
-                    <div className="current-team-emblem">C</div>
+            <TeamHero />
+            <TeamGlance />
 
-                    <div className="current-team-intro">
-                        <h1>Meet The Gamecocks</h1>
-
-                        <p>
-                            Explore the athletes, leaders, and coaches who bring
-                            energy to every Saturday in Columbia.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <section className="team-glance-section">
-                <img
-                    className="team-glance-image"
-                    src={teamGlanceLeft}
-                    alt="Gamecock football player"
-                />
-
-                <div className="team-glance-content">
-                    <h2>Team At A Glance</h2>
-
-                    <p>
-                        A balanced roster built around leadership, depth, and
-                        game-day energy.
-                    </p>
-
-                    <div className="team-glance-buttons">
-                        <HashLink className="team-glance-button" smooth to="/current-team#players">
-                            View The Roster
-                        </HashLink>
-
-                        <Link className="team-glance-button" to="/schedule&results">
-                            See The Schedule
-                        </Link>
-                    </div>
-                </div>
-
-                <img
-                    className="team-glance-image"
-                    src={teamGlanceRight}
-                    alt="Gamecock football player"
-                />
-            </section>
 
             <section className="superstars-section" id="players">
                 <p className="superstars-label">CURRENT GAMECOCKS</p>
@@ -104,28 +47,7 @@ const CurrentTeam = () => {
                 </div>
             </section>
 
-            <section className="roster-cta-section">
-                <div className="roster-cta-content">
-                    <p className="roster-cta-label">GAMECOCK FOOTBALL</p>
-
-                    <h2>Ready For Saturday</h2>
-
-                    <p className="roster-cta-description">
-                        Meet the players, follow the season, and experience the
-                        energy that makes every Gamecock game day unforgettable.
-                    </p>
-
-                    <HashLink className="team-glance-button" smooth to="/current-team#players">
-                        View The Roster
-                    </HashLink>
-                </div>
-
-                <img
-                    className="roster-cta-image"
-                    src={fullTeam}
-                    alt="South Carolina Gamecock football team"
-                />
-            </section>
+            <RosterCta />
         </main>
     );
 };

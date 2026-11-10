@@ -3,7 +3,7 @@ import "./Player.css";
 const Player = (props) => {
     return (
         <article className="player-card">
-            <img src={`${process.env.PUBLIC_URL}/${props.image}`} alt={props.name} />
+            <img src={`https://gamecock-server-alqe.onrender.com/images/${props.image}`} alt={props.name} />
 
             <div className="player-content">
                 <p className="player-number">#{props.number}</p>
