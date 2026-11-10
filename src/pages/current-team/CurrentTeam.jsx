@@ -4,8 +4,13 @@ import Player from "../../components/players/Player";
 import TeamHero from "../../components/currentteampage/teamhero/TeamHero";
 import TeamGlance from "../../components/currentteampage/teamglance/TeamGlance";
 import RosterCta from "../../components/currentteampage/rostercta/RosterCta";
+import axios from "axios";
+
+
 
 const CurrentTeam = () => {
+    const [players, setPlayers] = useState([]);
+
     useEffect(() => {
         const loadPlayers = async () => {
             const response = await axios.get("https://gamecock-server-alqe.onrender.com/api/players");
