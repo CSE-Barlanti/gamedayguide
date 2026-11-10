@@ -1,0 +1,52 @@
+:root{
+    --black: #0b0b0b;
+    --garnet: #73000a;
+    --offwhite: #f7f5f2;
+    --gold: #c9b27c;
+    --gray: #b8b5bc;
+    --dark-gray: black;
+    --bright-garnet: firebrick;
+}
+
+/*Gallery Hero Section*/
+.gallery-hero{
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+    background: var(--garnet);
+    color: var(--offwhite);
+}
+
+.gallery-hero-content{
+    padding-left: 35px;
+    border-left: 10px solid var(--gold);
+}
+
+.gallery-hero h1{
+    margin: 0 0 18px;
+    color: var(--offwhite);
+    font-size: 3em;
+}
+
+.gallery-hero p{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 1em;
+}
+
+@media (max-width: 800px){
+    .gallery-hero{
+        min-height: auto;
+        padding: 50px 8%;
+    }
+
+    .gallery-hero-content{
+        padding-left: 20px;
+        border-left-width: 6px;
+    }
+
+    .gallery-hero h1{
+        font-size: 2.3em;
+    }
+}
