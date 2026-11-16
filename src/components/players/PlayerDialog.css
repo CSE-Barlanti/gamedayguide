@@ -1,0 +1,84 @@
+.player-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(11, 11, 11, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.player-dialog {
+  position: relative;
+  background: var(--offwhite);
+  border-top: 6px solid var(--garnet);
+  border-radius: 10px;
+  max-width: 650px;
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.player-dialog img {
+  width: 220px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid var(--gold);
+}
+
+.player-dialog-info {
+  flex: 1;
+}
+
+.player-dialog-info h2 {
+  color: var(--garnet);
+  margin: 0 0 15px;
+}
+
+.player-dialog-info p {
+  margin: 6px 0;
+  color: var(--black);
+}
+
+.player-dialog-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--gold);
+  margin: 0 !important;
+}
+
+.player-dialog-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--garnet);
+  cursor: pointer;
+}
+
+.player-dialog-close:hover {
+  color: var(--bright-garnet);
+}
+
+.player-card {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .player-dialog {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .player-dialog img {
+    width: 100%;
+    max-width: 250px;
+  }
+}
