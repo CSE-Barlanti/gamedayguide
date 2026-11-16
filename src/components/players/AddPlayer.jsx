@@ -2,7 +2,7 @@ import { useState} from "react";
 import "./AddPlayer.css";
 import { API_BASE_URL } from "../../config";
 
-const AddPlayer = () => {
+const AddPlayer = (props) => {
     const [result, setResult] = useState("");
     const onSubmit = async (e) => {
         e.preventDefault();

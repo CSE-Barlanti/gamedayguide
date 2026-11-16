@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./CurrentTeam.css";
 import Player from "../../components/players/Player";
+import AddPlayer from "../../components/players/AddPlayer";
 import TeamHero from "../../components/currentteampage/teamhero/TeamHero";
 import TeamGlance from "../../components/currentteampage/teamglance/TeamGlance";
 import RosterCta from "../../components/currentteampage/rostercta/RosterCta";
@@ -12,6 +13,11 @@ import { API_BASE_URL } from "../../config";
 
 const CurrentTeam = () => {
     const [players, setPlayers] = useState([]);
+    const [showAddDialog, setShowAddDialog] = useState(false);
+
+    const addPlayerToList = (player) => {
+        setPlayers((players) => [...players, player]);
+    };
 
     useEffect(() => {
         const loadPlayers = async () => {
@@ -36,6 +42,17 @@ const CurrentTeam = () => {
                 <p className="superstars-intro">
                     The leaders and playmakers driving South Carolina football today.
                 </p>
+
+                <button className="add-player-button" onClick={() => setShowAddDialog(true)}>
+                    + Add Player
+                </button>
+
+                {showAddDialog && (
+                    <AddPlayer
+                        close_dialog={() => setShowAddDialog(false)}
+                        add_player_to_list={addPlayerToList}
+                    />
+                )}
 
                 <div className="players-list">
                     {players.map((player) => (
