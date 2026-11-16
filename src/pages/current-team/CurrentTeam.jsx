@@ -5,6 +5,8 @@ import TeamHero from "../../components/currentteampage/teamhero/TeamHero";
 import TeamGlance from "../../components/currentteampage/teamglance/TeamGlance";
 import RosterCta from "../../components/currentteampage/rostercta/RosterCta";
 import axios from "axios";
+import { API_BASE_URL } from "../../config";
+
 
 
 
@@ -13,7 +15,7 @@ const CurrentTeam = () => {
 
     useEffect(() => {
         const loadPlayers = async () => {
-            const response = await axios.get("https://gamecock-server-alqe.onrender.com/api/players");
+            const response = await axios.get(`${API_BASE_URL}/api/players`);
             setPlayers(response.data);
         };
         loadPlayers();

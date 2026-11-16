@@ -1,9 +1,10 @@
 import "./Player.css";
+import { API_BASE_URL } from "../../config";
 
 const Player = (props) => {
     return (
         <article className="player-card">
-            <img src={`https://gamecock-server-alqe.onrender.com/images/${props.image}`} alt={props.name} />
+            <img src={`${API_BASE_URL}/images/${props.image}`}/>
 
             <div className="player-content">
                 <p className="player-number">#{props.number}</p>
